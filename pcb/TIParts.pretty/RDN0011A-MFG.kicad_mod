@@ -57,20 +57,6 @@
 	(attr through_hole)
 	(fp_poly
 		(pts
-			(xy -0.199995 -2.4) (xy -0.099997 -2.5) (xy 0.1 -2.5) (xy 0.2 -2.4) (xy 0.2 -1.515001) (xy 0.239997 -1.475001)
-			(xy 0.24 -1.475001) (xy 0.279999 -1.435001) (xy 0.279999 1.975) (xy 0.18 2.075) (xy -0.18 2.075)
-			(xy -0.279999 1.975) (xy -0.279999 -1.435001) (xy -0.24 -1.475001) (xy -0.24 -1.474998) (xy -0.2 -1.515001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "b356b371-3365-47a7-928f-c330ffa1aba9")
-	)
-	(fp_poly
-		(pts
 			(xy -1.950001 -2.0995) (xy -1.899999 -2.1495) (xy -0.900001 -2.1495) (xy -0.850001 -2.0995) (xy -0.850001 -1.8245)
 			(xy -0.900001 -1.7745) (xy -1.899999 -1.7745) (xy -1.950001 -1.8245)
 		)
@@ -778,6 +764,13 @@
 		(remove_unused_layers no)
 		(uuid "613ac06e-9c03-46e3-974b-f6cb99da68ad")
 	)
+	(pad "10" smd roundrect
+		(at 0 -1.675)
+		(size 0.35 1.68)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(uuid "bdffcc80-e12d-4b9f-bd88-37ef5befc7ad")
+	)
 	(pad "10" thru_hole circle
 		(at 0 -1.23)
 		(size 0.399999 0.399999)
@@ -785,12 +778,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "34d3730e-79e9-46aa-a4bc-bc57518692c2")
-	)
-	(pad "10" smd circle
-		(at 0 -1.004999)
-		(size 0.504 0.504)
-		(layers "F.Cu")
-		(uuid "bdffcc80-e12d-4b9f-bd88-37ef5befc7ad")
 	)
 	(pad "10" thru_hole circle
 		(at 0 -0.23)
