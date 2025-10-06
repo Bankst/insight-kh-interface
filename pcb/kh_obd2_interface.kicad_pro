@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.349999,
-          "width": 1.2
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -645,6 +645,18 @@
     [
       "0736e313-8db4-41af-b70d-53af7104d2ca",
       "Root"
+    ],
+    [
+      "c18d60e7-bd36-4ea9-b2f1-adbb43a4c5ec",
+      "MCU"
+    ],
+    [
+      "3f40c237-d495-44df-82aa-7228d577e747",
+      "Power"
+    ],
+    [
+      "5885c24f-1a9e-44c2-aba7-d9491c98e256",
+      "Transceivers"
     ]
   ],
   "text_variables": {}
