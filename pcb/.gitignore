@@ -1,0 +1,5 @@
+*.lck
+*.bak
+*backups/
+*autosave*
+\#auto_saved_files\#
