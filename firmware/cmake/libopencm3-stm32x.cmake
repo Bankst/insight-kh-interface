@@ -24,7 +24,7 @@ set(COMPILE_OPTIONS
   -fno-common
   -mcpu=cortex-${CHIP_CORTEX}
   -mthumb
-  -mfloat-abi=hard
+  # -mfloat-abi=hard
   -mfpu=fpv5-d16
 )
 target_compile_options(${CHIP_TARGET} INTERFACE ${COMPILE_OPTIONS})

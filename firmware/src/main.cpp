@@ -18,31 +18,29 @@ extern "C" {
 #define ARRAY_LEN(array) (sizeof((array))/sizeof((array)[0]))
 #endif
 
-#define LED1_PORT GPIOI
+#define LED1_PORT GPIOC
 #define LED1_PIN GPIO0
 #define LED1_AF GPIO_AF2
-#define LED1_TIM TIM5
-#define LED1_OC TIM_OC4
-#define LED1_RCC RCC_TIM5
-#define LED1_NVIC NVIC_TIM5_IRQ
-#define LED1_RST RST_TIM5
-#define LED1_ISR tim5_isr
-#define LED1_CCIF TIM_SR_CC4IF
-#define LED1_CCIE TIM_DIER_CC4IE
+#define LED1_TIM TIM2
+#define LED1_OC TIM_OC2
+#define LED1_RCC RCC_TIM2
+#define LED1_NVIC NVIC_TIM2_IRQ
+#define LED1_RST RST_TIM2
+#define LED1_ISR tim2_isr
+#define LED1_CCIF TIM_SR_CC2IF
+#define LED1_CCIE TIM_DIER_CC2IE
 
 
 static void tim_setup(void)
 {
   // see http://www.micromouseonline.com/2016/02/06/pwm-basics-on-the-stm32-general-purpose-timers/
-
-  static constexpr uint32_t hse_mhz = 16;
-  rcc_clock_setup_hse(&rcc_3v3[RCC_CLOCK_3V3_168MHZ], hse_mhz);
+  rcc_clock_setup(&rcc_clock_config[RCC_CLOCK_CONFIG_HSI_16MHZ]);
 
   /* Enable GPIO clock for leds. */
   rcc_periph_clock_enable(RCC_GPIOA);
   rcc_periph_clock_enable(RCC_GPIOB);
-  rcc_periph_clock_enable(RCC_GPIOI);
-  rcc_periph_clock_enable(RCC_GPIOH);
+  rcc_periph_clock_enable(RCC_GPIOC);
+  rcc_periph_clock_enable(RCC_GPIOD);
 
 
   /* Enable TIM5 clock. */
