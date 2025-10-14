@@ -657,6 +657,10 @@
     [
       "5885c24f-1a9e-44c2-aba7-d9491c98e256",
       "Transceivers"
+    ],
+    [
+      "327da5f9-d937-42ff-b3b7-f3be294fa76c",
+      "Connectors"
     ]
   ],
   "text_variables": {}

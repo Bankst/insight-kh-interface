@@ -3861,7 +3861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e1847b9-283f-49dd-bb05-c6ff3d8b77c8")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 111.3633 154.94 0)
 			(effects
 				(font
@@ -4098,6 +4098,14 @@
 		)
 		(pin "54"
 			(uuid "a1041647-e1ef-4918-be52-26bac625cc27")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/c18d60e7-bd36-4ea9-b2f1-adbb43a4c5ec"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
