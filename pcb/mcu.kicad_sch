@@ -2329,6 +2329,24 @@
 		(uuid "51b8f177-5f35-4b3c-8403-36ad2e6d6bf4")
 	)
 	(bus_entry
+		(at 53.34 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60889f89-c188-4620-b387-f83599b42a7a")
+	)
+	(bus_entry
+		(at 53.34 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d988f1-bea8-4b69-ad00-9bc523bcb126")
+	)
+	(bus_entry
 		(at 160.02 78.74)
 		(size -2.54 2.54)
 		(stroke
@@ -2345,6 +2363,15 @@
 			(type default)
 		)
 		(uuid "997b8e50-ef11-4a65-b628-08755fdc2ae5")
+	)
+	(bus_entry
+		(at 53.34 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c32195-c839-45ee-8f24-61c8d12efefb")
 	)
 	(bus_entry
 		(at 195.58 71.12)
@@ -2649,6 +2676,16 @@
 		)
 		(uuid "7529a696-8e56-4c92-a83c-b69fa203af31")
 	)
+	(bus
+		(pts
+			(xy 53.34 85.09) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78665498-207e-4ee6-ba82-d597081aa0ca")
+	)
 	(wire
 		(pts
 			(xy 137.16 73.66) (xy 154.94 73.66)
@@ -2668,6 +2705,26 @@
 			(type default)
 		)
 		(uuid "7edbf04d-dddd-4eb9-b944-5cc88fa0489f")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9aba56-c91b-4b64-96b6-b6ef2b39797c")
+	)
+	(bus
+		(pts
+			(xy 53.34 95.25) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806e0111-dd2a-4290-b2a4-54ccc194250c")
 	)
 	(wire
 		(pts
@@ -2738,6 +2795,16 @@
 			(type default)
 		)
 		(uuid "9859d661-8188-4a46-bd1b-8d385dd04863")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5ec52e-cca4-415c-956b-d0b0f8a9a747")
 	)
 	(bus
 		(pts
@@ -2861,6 +2928,16 @@
 	)
 	(bus
 		(pts
+			(xy 53.34 97.79) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd0f700-8149-47d9-a379-eb9e72cccd9a")
+	)
+	(bus
+		(pts
 			(xy 187.96 87.63) (xy 187.96 88.9)
 		)
 		(stroke
@@ -2868,6 +2945,16 @@
 			(type default)
 		)
 		(uuid "d1066ee3-8d68-417b-adef-4d805b027e57")
+	)
+	(wire
+		(pts
+			(xy 55.88 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bb5c16-2a78-4dce-a0b7-69ab31b28bb7")
 	)
 	(bus
 		(pts
@@ -3019,6 +3106,26 @@
 		)
 		(uuid "29ba3339-84fa-4f89-8e84-6692c7d0c8e6")
 	)
+	(label "STB"
+		(at 55.88 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46411590-3121-4cbc-9cfe-4910f1eb0cde")
+	)
+	(label "TX"
+		(at 55.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb770f9-ee66-4406-9381-5a1f82f0096f")
+	)
 	(label "KL_UART.TX"
 		(at 55.88 116.84 180)
 		(effects
@@ -3108,6 +3215,16 @@
 			(justify left bottom)
 		)
 		(uuid "99eedbc0-390b-49ee-a16a-a1d201312cd3")
+	)
+	(label "RX"
+		(at 55.88 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a40d781c-5b2b-4c26-bc5c-b07b3ae22559")
 	)
 	(label "KL_UART.RX"
 		(at 55.88 119.38 180)
@@ -3215,6 +3332,17 @@
 		)
 		(uuid "7b1ab5b5-5bbf-424d-b18f-8d3a4d2e05fe")
 	)
+	(hierarchical_label "MCU_SWO"
+		(shape output)
+		(at 139.7 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cb8adde-ab62-4366-b3c9-2b9c897473bd")
+	)
 	(hierarchical_label "KL_UART{TX RX}"
 		(shape bidirectional)
 		(at 41.91 113.03 180)
@@ -3236,6 +3364,17 @@
 			(justify left)
 		)
 		(uuid "ce0a75dc-6775-4853-bb0d-d85e1e902820")
+	)
+	(hierarchical_label "{CAN_MCU}"
+		(shape bidirectional)
+		(at 53.34 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e59dffd3-b873-436a-8b95-cae1df0d7b2d")
 	)
 	(hierarchical_label "HL_UART{TX RX}"
 		(shape bidirectional)

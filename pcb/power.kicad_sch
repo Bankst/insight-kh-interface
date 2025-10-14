@@ -2671,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 50.8) (xy 54.61 52.07)
+			(xy 54.61 50.8) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2958,6 +2958,16 @@
 			(justify right bottom)
 		)
 		(uuid "bc84795c-2e3e-47ea-af47-18213a46170f")
+	)
+	(label "BATT_FUSED"
+		(at 54.61 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce85de94-5db4-497e-90c0-2d6bd5c051fd")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3967,71 +3977,6 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 54.61 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ccb3630-aabb-420b-8bf2-530337c1646e")
-		(property "Reference" "#PWR05"
-			(at 54.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT_FUSED"
-			(at 54.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 54.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb3e8d0c-cbcb-4c07-bb6b-c509f6373bd5")
-		)
-		(instances
-			(project "kh_obd2_interface"
-				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
 		(at 101.6 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4646,7 +4591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 191.516 32.004 0)
 			(effects
 				(font
