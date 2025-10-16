@@ -549,7 +549,7 @@
 				(justify right)
 			)
 		)
-		(pin "{CAN}" bidirectional
+		(pin "CAN{CAN}" bidirectional
 			(at 74.93 91.44 0)
 			(uuid "7e75dad6-1694-4986-bfdd-25b5ebf44449")
 			(effects
@@ -753,7 +753,7 @@
 				(justify right)
 			)
 		)
-		(pin "{CAN}" bidirectional
+		(pin "CAN{CAN}" bidirectional
 			(at 118.11 100.33 180)
 			(uuid "3951e47b-c754-4616-9f71-4d4a1a8a75f4")
 			(effects

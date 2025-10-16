@@ -2158,7 +2158,7 @@
 		)
 	)
 	(bus_alias "CAN"
-		(members "H_+" "L_-")
+		(members "P" "N")
 	)
 	(bus_alias "CAN_MCU"
 		(members "TX" "RX" "STB")
@@ -3061,13 +3061,13 @@
 		)
 		(uuid "30edace4-f19e-4222-91b2-66bbd9bf39db")
 	)
-	(label "L_-"
-		(at 99.06 93.98 0)
+	(label "CAN.N"
+		(at 102.87 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "42509eea-f86f-4545-b03b-1b9b29540d73")
 	)
@@ -3111,13 +3111,13 @@
 		)
 		(uuid "6e9c3b3a-c4a6-4664-9070-6c97c5646040")
 	)
-	(label "H_+"
-		(at 99.06 88.9 0)
+	(label "CAN.P"
+		(at 102.87 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9a428b75-af27-4389-9318-9100517bf317")
 	)
@@ -3164,7 +3164,7 @@
 		)
 		(uuid "7d84abe6-eed5-4440-87bb-914e39d8f712")
 	)
-	(hierarchical_label "{CAN}"
+	(hierarchical_label "CAN{CAN}"
 		(shape bidirectional)
 		(at 105.41 83.82 180)
 		(effects
@@ -3484,7 +3484,7 @@
 		(dnp no)
 		(uuid "27f0f0d5-da84-4ae3-b818-10052a0c232c")
 		(property "Reference" "C302"
-			(at 77.47 89.154 90)
+			(at 77.47 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3492,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 77.47 87.376 90)
+			(at 77.47 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,6 +5015,71 @@
 			(project ""
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
 					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 101.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f67c1d36-17ee-45e3-9c7b-75bf71af8ef5")
+		(property "Reference" "#PWR040"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 101.346 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fd3361a-fbb3-4f5c-8dab-c2594320713e")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

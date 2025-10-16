@@ -2405,7 +2405,7 @@
 		)
 		(uuid "96f0f65c-3047-478d-8864-6eb83adbef82")
 	)
-	(label "H_+"
+	(label "CAN.P"
 		(at 27.94 50.8 0)
 		(effects
 			(font
@@ -2415,7 +2415,7 @@
 		)
 		(uuid "9b55a38b-f401-4c7f-b289-6d7b0c28b285")
 	)
-	(label "L_-"
+	(label "CAN.N"
 		(at 27.94 53.34 0)
 		(effects
 			(font
@@ -2510,7 +2510,7 @@
 		)
 		(uuid "72fabd92-d571-421d-9407-090983cc5e91")
 	)
-	(hierarchical_label "{CAN}"
+	(hierarchical_label "CAN{CAN}"
 		(shape bidirectional)
 		(at 36.83 45.72 180)
 		(effects
