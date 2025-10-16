@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -116,29 +116,29 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "error",
+        "unconnected_items": "warning",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.127,
-        "min_hole_to_hole": 0.127,
-        "min_microvia_diameter": 0.4,
-        "min_microvia_drill": 0.2,
-        "min_resolved_spokes": 2,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -147,7 +147,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onvia": true
         }
       ],
@@ -483,8 +483,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.25,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
@@ -493,9 +493,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.8,
         "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -506,11 +506,15 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
+        "pattern": "+BATT_FUSED"
+      },
+      {
+        "netclass": "Power",
         "pattern": "+12V"
       },
       {
         "netclass": "Power",
-        "pattern": "/Power/BATT_FUSED"
+        "pattern": "+5V"
       }
     ]
   },
@@ -567,19 +571,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -591,15 +595,33 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Part",
+          "name": "Part",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -656,7 +678,7 @@
     ],
     [
       "5885c24f-1a9e-44c2-aba7-d9491c98e256",
-      "Transceivers"
+      "Communications"
     ],
     [
       "327da5f9-d937-42ff-b3b7-f3be294fa76c",

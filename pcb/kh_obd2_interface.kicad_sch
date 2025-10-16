@@ -705,7 +705,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5885c24f-1a9e-44c2-aba7-d9491c98e256")
-		(property "Sheetname" "Transceivers"
+		(property "Sheetname" "Communications"
 			(at 118.11 88.1884 0)
 			(effects
 				(font
