@@ -1839,7 +1839,7 @@
 	)
 	(rectangle
 		(start 15.24 15.24)
-		(end 92.71 64.77)
+		(end 93.345 64.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -1850,8 +1850,8 @@
 		(uuid 8410d955-3e0b-4a29-9857-e92add02af17)
 	)
 	(rectangle
-		(start 100.965 15.24)
-		(end 147.447 64.77)
+		(start 93.345 15.24)
+		(end 139.827 64.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -1875,7 +1875,7 @@
 	)
 	(text "Int. Connectors"
 		(exclude_from_sim no)
-		(at 116.84 18.415 0)
+		(at 109.22 18.415 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2371,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 113.03 26.67)
+			(xy 104.14 26.67) (xy 105.41 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2462,7 @@
 	)
 	(hierarchical_label "RTC_VBAT"
 		(shape output)
-		(at 113.03 26.67 0)
+		(at 105.41 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2626,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 29.21 0)
+		(at 104.14 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2634,7 +2634,7 @@
 		(dnp no)
 		(uuid "0f29bb39-fbf2-4e1e-9c6a-7c88e110b950")
 		(property "Reference" "#PWR037"
-			(at 111.76 35.56 0)
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.316 30.48 0)
+			(at 107.696 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 29.21 0)
+			(at 104.14 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 29.21 0)
+			(at 104.14 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 29.21 0)
+			(at 104.14 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f7095a-92e5-47e9-80a8-0eaaf6cb3720")
-		(property "Reference" "J_SWD1"
+		(property "Reference" "J5"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 		(instances
 			(project ""
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/327da5f9-d937-42ff-b3b7-f3be294fa76c"
-					(reference "J_SWD1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 106.68 26.67 0)
+		(at 99.06 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3568,7 +3568,7 @@
 		(dnp no)
 		(uuid "e0cb0bee-b9be-4824-b4f7-f873fce0d2d4")
 		(property "Reference" "J4"
-			(at 106.68 21.844 0)
+			(at 99.06 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3576,7 @@
 			)
 		)
 		(property "Value" "RTC_BAT"
-			(at 106.68 23.876 0)
+			(at 99.06 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 106.68 26.67 0)
+			(at 99.06 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 26.67 0)
+			(at 99.06 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 26.67 0)
+			(at 99.06 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

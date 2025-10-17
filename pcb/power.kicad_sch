@@ -2512,6 +2512,12 @@
 		(uuid "6a2cd3e3-955f-4ee6-af1f-2b49771f8ec0")
 	)
 	(junction
+		(at 43.18 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cd8d2a0-4e12-401b-8c64-ec57217bde67")
+	)
+	(junction
 		(at 107.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2755,16 +2761,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 73.66) (xy 43.18 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e6203a-1294-4891-b4f6-ec9103aa1088")
-	)
-	(wire
-		(pts
 			(xy 53.34 21.59) (xy 55.88 21.59)
 		)
 		(stroke
@@ -2855,6 +2851,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 73.66) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7806b2d7-6dda-426c-8e25-a2fd63292063")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 55.88 45.72)
 		)
 		(stroke
@@ -2892,6 +2898,16 @@
 			(type default)
 		)
 		(uuid "8f8efdc0-cbf0-4dc0-a80c-cc39fa720f70")
+	)
+	(wire
+		(pts
+			(xy 43.18 73.66) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd41e8f-2369-4b2d-a6b4-0b5cc23a1c82")
 	)
 	(wire
 		(pts
@@ -3243,7 +3259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a7751ad-3310-47a8-8b43-c3b8d58570e2")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 109.982 40.386 0)
 			(effects
 				(font
@@ -3306,7 +3322,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3456,6 +3472,71 @@
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
 					(reference "U202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1043b082-b67d-4f0a-8273-6c02e84a2555")
+		(property "Reference" "#PWR045"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c4b91a-9c31-4c3a-aa58-9022596adec9")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d16be50-ac84-4240-8e3b-04abf982ec6a")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 103.378 50.546 0)
 			(effects
 				(font
@@ -3678,7 +3759,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3828,7 +3909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4511493c-9d0c-4be0-bed5-5b7a107f47b5")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 168.402 39.878 0)
 			(effects
 				(font
@@ -3891,7 +3972,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3971,7 +4052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54e24f73-8918-4244-a009-d97ec6f450f2")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 51.308 47.244 0)
 			(effects
 				(font
@@ -4025,7 +4106,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4300,6 +4381,84 @@
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70bf620f-84c7-492a-9879-ece0e8b1a9ee")
+		(property "Reference" "C4"
+			(at 47.498 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 47.498 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM31CR61A476KE15L"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adaa3bdb-5437-4fc6-95bf-fecc9e314172")
+		)
+		(pin "2"
+			(uuid "fbbf8ea6-3afc-4bb3-be8f-fc38f0287b53")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9295fd63-fc91-473c-8b72-fe4ad4abb0f2")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 102.616 40.386 0)
 			(effects
 				(font
@@ -4754,7 +4913,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4912,7 +5071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4791b7d-5a68-4824-860a-41c174538e05")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 110.998 50.8 0)
 			(effects
 				(font
@@ -4975,7 +5134,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4990,7 +5149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc01db66-a561-4621-9aa0-484853ac4882")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 189.738 39.878 0)
 			(effects
 				(font
@@ -5053,7 +5212,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5411,7 +5570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f11c6c9c-6e30-4f5e-a260-8af31eb7e68f")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 146.558 37.338 0)
 			(effects
 				(font
@@ -5474,7 +5633,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/3f40c237-d495-44df-82aa-7228d577e747"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)

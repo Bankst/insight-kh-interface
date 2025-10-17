@@ -669,12 +669,12 @@
       "Root"
     ],
     [
-      "c18d60e7-bd36-4ea9-b2f1-adbb43a4c5ec",
-      "MCU"
-    ],
-    [
       "3f40c237-d495-44df-82aa-7228d577e747",
       "Power"
+    ],
+    [
+      "c18d60e7-bd36-4ea9-b2f1-adbb43a4c5ec",
+      "MCU"
     ],
     [
       "5885c24f-1a9e-44c2-aba7-d9491c98e256",
@@ -683,6 +683,10 @@
     [
       "327da5f9-d937-42ff-b3b7-f3be294fa76c",
       "Connectors"
+    ],
+    [
+      "ecaf91e1-a4d1-46c0-9e72-ae26f0cbfbc5",
+      "HMI"
     ]
   ],
   "text_variables": {}

@@ -247,6 +247,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8859d30b-79e4-4845-b19c-1f148e7e2831")
+	)
+	(wire
+		(pts
 			(xy 95.25 43.18) (xy 95.25 67.31)
 		)
 		(stroke
@@ -344,6 +354,16 @@
 			(type default)
 		)
 		(uuid "b97f99a1-1660-493a-ae2f-a9a550b7807d")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.99) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65e8d41-d08a-429a-ba25-51d501adfdbb")
 	)
 	(wire
 		(pts
@@ -572,7 +592,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -624,7 +644,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca"
-					(page "3")
+					(page "1")
 				)
 			)
 		)
@@ -736,7 +756,7 @@
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -875,6 +895,26 @@
 				(justify left)
 			)
 		)
+		(pin "MCU_STATUS_LED" output
+			(at 158.75 46.99 0)
+			(uuid "dda92043-fedd-45c1-bcd4-4104a5c3b78b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_LED_DRV" output
+			(at 158.75 49.53 0)
+			(uuid "57938ea5-26e4-427f-a998-5362286a2676")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "kh_obd2_interface"
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca"
@@ -883,9 +923,71 @@
 			)
 		)
 	)
+	(sheet
+		(at 177.8 29.21)
+		(size 35.56 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecaf91e1-a4d1-46c0-9e72-ae26f0cbfbc5")
+		(property "Sheetname" "HMI"
+			(at 177.8 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hmi.kicad_sch"
+			(at 177.8 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_STATUS_LED" input
+			(at 177.8 46.99 180)
+			(uuid "74c11b3c-849b-4ddf-a4b0-55707056e003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_LED_DRV" input
+			(at 177.8 49.53 180)
+			(uuid "5de7077a-762f-4c25-853d-acc46b65d050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 	(embedded_fonts no)
