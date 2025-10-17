@@ -1929,6 +1929,10 @@
 		(at 74.93 53.34)
 		(uuid "4efb2af9-bd80-46a1-b3e6-232348435a34")
 	)
+	(no_connect
+		(at 44.45 87.63)
+		(uuid "73ea7949-8f61-446d-8d07-c506ded34a71")
+	)
 	(bus_entry
 		(at 36.83 48.26)
 		(size -2.54 2.54)
@@ -2277,16 +2281,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 48.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7f128c-c809-47c6-8ebc-f0f710fdc923")
-	)
-	(wire
-		(pts
 			(xy 74.93 35.56) (xy 76.2 35.56)
 		)
 		(stroke
@@ -2476,17 +2470,6 @@
 			(justify left)
 		)
 		(uuid "4363cdd8-be5f-482b-aa01-fd1b24f541af")
-	)
-	(hierarchical_label "MCU_SWO"
-		(shape input)
-		(at 48.26 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61a1db6b-277b-4482-9f97-e9b6d3bc5c0e")
 	)
 	(hierarchical_label "MCU_SWDIO"
 		(shape bidirectional)

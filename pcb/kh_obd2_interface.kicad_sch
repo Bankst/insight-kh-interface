@@ -45,16 +45,6 @@
 		)
 		(uuid "102e2824-2c5e-4e7f-b3ba-6f5760b60809")
 	)
-	(wire
-		(pts
-			(xy 96.52 44.45) (xy 111.76 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17868425-39e7-4dd8-b090-53a060e78f6b")
-	)
 	(bus
 		(pts
 			(xy 135.89 69.85) (xy 135.89 88.9)
@@ -204,16 +194,6 @@
 			(type default)
 		)
 		(uuid "6e05a847-5484-4547-91f4-db99f6f3ebcc")
-	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 78.74 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ff5984-c6bd-4c6b-a0b6-61435de62c48")
 	)
 	(wire
 		(pts
@@ -367,16 +347,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 96.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4f0c25-f99e-482d-8302-7c29625617f6")
-	)
-	(wire
-		(pts
 			(xy 74.93 83.82) (xy 96.52 83.82)
 		)
 		(stroke
@@ -384,16 +354,6 @@
 			(type default)
 		)
 		(uuid "c91758af-0be8-40f9-adbf-0f380be0c6e2")
-	)
-	(wire
-		(pts
-			(xy 78.74 72.39) (xy 74.93 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb81b647-cfa4-48ad-a213-151353419715")
 	)
 	(wire
 		(pts
@@ -444,16 +404,6 @@
 			(type default)
 		)
 		(uuid "e761d43e-bf6a-475b-ac71-f66ea832d0aa")
-	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 96.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1855320-1367-4276-9ac9-280474bfbadd")
 	)
 	(wire
 		(pts
@@ -582,16 +532,6 @@
 		(pin "MCU_NRST" output
 			(at 74.93 64.77 0)
 			(uuid "4c252aa4-a310-423a-8d1a-28a10da95212")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_SWO" input
-			(at 74.93 72.39 0)
-			(uuid "77e1b0a4-c885-4174-abff-f585e06753f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,16 +853,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "MCU_SWO" output
-			(at 111.76 44.45 180)
-			(uuid "d5c01040-be13-4a75-a7f1-d0fa9e02d85d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "{CAN_MCU}" bidirectional
