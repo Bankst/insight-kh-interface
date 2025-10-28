@@ -1573,6 +1573,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2084,6 +2289,18 @@
 		(uuid d2ac4cde-2f68-4f22-ae18-e8280ce27854)
 	)
 	(rectangle
+		(start 107.95 66.04)
+		(end 138.43 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7d14cf8-b8f8-4b8f-a71d-1642afa1d95c)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 74.93 66.04)
 		(stroke
@@ -2106,6 +2323,18 @@
 			)
 		)
 		(uuid "1e6a78c8-51d3-4b90-86b8-b99cecfdfc51")
+	)
+	(text "SCS Drive"
+		(exclude_from_sim no)
+		(at 118.618 69.088 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "7074fbcc-c1da-4e14-8b84-f39299ba6a54")
 	)
 	(text "K-Line Transceiver"
 		(exclude_from_sim no)
@@ -2296,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 97.79) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a4afcc-b1d9-4227-bb34-069de1e7997d")
+	)
+	(wire
+		(pts
 			(xy 91.44 93.98) (xy 91.44 99.06)
 		)
 		(stroke
@@ -2343,6 +2582,36 @@
 			(type default)
 		)
 		(uuid "347787b9-6632-4a62-bb48-38400cf510e6")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493b9d17-67a3-45bb-b6b8-c83c8c304626")
+	)
+	(wire
+		(pts
+			(xy 110.49 97.79) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5a05ef-d395-41e9-871a-124f89232f0c")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb8a8ce-2f2b-4fff-a58a-d2c5a9888893")
 	)
 	(wire
 		(pts
@@ -2463,6 +2732,16 @@
 			(type default)
 		)
 		(uuid "70e64087-121e-4bf7-accf-19f7795c67ba")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743bdf1c-e89c-4494-9163-fc58935adb85")
 	)
 	(wire
 		(pts
@@ -2806,6 +3085,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 86.36) (xy 119.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec299477-77cb-42f6-af46-b7c4536643a3")
+	)
+	(wire
+		(pts
 			(xy 29.21 59.69) (xy 52.07 59.69)
 		)
 		(stroke
@@ -3014,17 +3303,6 @@
 		)
 		(uuid "f7a89056-0fce-440e-9c6e-f6ce35869a1c")
 	)
-	(hierarchical_label "Vehi_SCS"
-		(shape output)
-		(at 121.92 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2f818f71-6b40-4f53-9cf0-42b4cc32c8ed")
-	)
 	(hierarchical_label "KLINE{UART}"
 		(shape bidirectional)
 		(at 76.2 25.4 0)
@@ -3068,6 +3346,28 @@
 			(justify right)
 		)
 		(uuid "9cbec777-bc37-451e-960d-7008a477c9fe")
+	)
+	(hierarchical_label "MCU_SCS_DRIVE"
+		(shape input)
+		(at 120.65 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3ea5f11-3e75-4664-a8b5-37842365b278")
+	)
+	(hierarchical_label "Vehi_SCS"
+		(shape output)
+		(at 127 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c00c6b24-a4ea-4fae-8fc7-1659d75f330d")
 	)
 	(hierarchical_label "{CAN_MCU}"
 		(shape bidirectional)
@@ -3556,6 +3856,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 119.38 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cb76ee9-cb61-4b5c-9db1-19a50140932b")
+		(property "Reference" "R306"
+			(at 118.364 82.804 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 118.364 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d7fb831-68a9-4f53-98f5-a3395dbec611")
+		)
+		(pin "2"
+			(uuid "6c82ec5a-e669-4994-be0f-d0b8fa593e35")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
+					(reference "R306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 63.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3758,6 +4128,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d1c5117-13fb-4649-b320-570f628e2ab9")
+		(property "Reference" "#PWR057"
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ccb5f9a-f91d-4119-b585-2d2e7af98ace")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 29.21 48.26 180)
 		(unit 1)
@@ -3884,6 +4319,80 @@
 			(project ""
 				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 119.38 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cffeaf0-31e5-4464-b04c-dca7a90d145b")
+		(property "Reference" "Q301"
+			(at 119.38 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 119.38 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 117.475 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32421259-baa6-40f8-91dd-9e3d4814b71f")
+		)
+		(pin "2"
+			(uuid "cf937ed8-9390-47d2-9cf5-56a533fb433a")
+		)
+		(pin "1"
+			(uuid "fdec1698-08d6-490a-8e5d-84613d647c02")
+		)
+		(instances
+			(project "kh_obd2_interface"
+				(path "/0736e313-8db4-41af-b70d-53af7104d2ca/5885c24f-1a9e-44c2-aba7-d9491c98e256"
+					(reference "Q301")
 					(unit 1)
 				)
 			)
