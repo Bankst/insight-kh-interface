@@ -1739,7 +1739,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(hide yes)
@@ -1758,7 +1758,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(hide yes)
@@ -4489,7 +4489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TIParts:RDN0011A-MFG"
+		(property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
 			(at 94.488 11.684 0)
 			(effects
 				(font
